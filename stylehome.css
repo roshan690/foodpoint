@@ -1,0 +1,140 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+      
+
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: 2s;
+       z-index: 1;
+    }
+
+    header .logo{
+        position: relative;
+        font-weight: 700;
+        color: rgb(241, 13, 173);
+        text-decoration: none;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: 2s;
+    }
+
+    header ul{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header ul li{
+        list-style-type: none;
+        position: relative;
+    }
+
+    header ul li a {
+        position: relative;
+        margin: 0 20px;
+        padding: 10px;
+        text-decoration: none;
+        color:  rgb(241, 13, 173);
+        transition: 2s;
+        font-size: 1.5em;
+        border-right: 2px solid rgb(201, 201, 201);
+        
+    }
+
+    section{
+       height:80vh;
+       width: 100%;
+       background: rgb(233, 231, 231);
+       padding: 200px;
+    }
+   
+    .section-img{
+      width: 300px;
+      
+    }
+    .sticky{
+        background-color: rgb(241, 13, 173);
+       
+    }
+    header.sticky a{
+        color: #fff;
+    }
+    header.sticky .logo{
+        color: #fff;
+    }
+
+    
+  
+    .search_box .fas{
+        font-size: 1.5em;
+        color: rgb(241, 13, 173);
+    }
+     .field{
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        border: none;
+        padding: 10px;
+        margin-bottom: 10px;
+        outline: none;
+        font-size: 1em;
+    }
+   
+    .search_box h3{
+        color: rgb(241, 13, 173);
+        font-size: 1.2em;
+    }
+
+    .main{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+    }
+.grid-container{
+    margin: 100px 0 100px 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-column-gap: 5em;
+    grid-auto-rows: auto;
+    grid-row-gap: 5em;
+    align-items: center;
+    
+   
+}
+.box{
+    width: 200px;
+}
+.box img{
+    height: 150px;
+    width: 200px;
+}
+.footer{
+    padding: 100px;
+    border-top: 2px solid rgb(224, 223, 223);
+    width: 100%;
+    text-align: center;
+    background-color: rgb(247, 243, 243);
+}
+.footer a {
+    border-right: 2px solid rgb(185, 185, 185);
+    
+    color: rgb(187, 186, 186);
+    margin-right: 20px;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none;
+}

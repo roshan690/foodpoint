@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    padding: 20px;
+    font-family: sans-serif;
+    background-image: url("file:///C:/Users/DELL/Desktop/paper%201/images/pexels-ella-olsson-1640777.jpg");
+   background-position: relative;
+   background-size: cover;
+   background-repeat: no-repeat;
+   text-align: center;
+   
+   
+}
+
+.box{
+    width: 300px;
+   position: absolute;
+   top: 40%;
+   left: 40%;
+   text-align: center;
+    
+}
+
+.btn-1{
+    padding: 15px;
+    text-align: center;
+    background-color: transparent;
+    color: rgb(228, 13, 156);
+    font-weight: 500;
+    border: 4px solid rgb(252, 14, 192);
+    border-radius: 40px;
+    width: 150px;
+    font-size: 1rem;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+h1{
+    color: rgb(224, 12, 214);
+}
+
+.box h1{
+    color: rgb(235, 13, 187);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.box input[type="text"], .box input[type=password]{
+    border: #fff;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 10px;
+    color:  rgb(226, 17, 209);
+    border-radius: 25px;
+    width: 200px;
+    transition: width 1s;
+}
+
+.box input[type="text"]:focus{
+    width: 250px;
+    outline: #fff;
+}
+
+.box input[type=password]:focus{
+    width: 250px;
+   outline: #fff;
+}
+
+.box #btn{
+    border: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 10px;
+    color:  rgb(226, 17, 209);
+    border-radius: 25px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 1.2rem;
+   
+}
+

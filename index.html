@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <h1>Foodhut</h1>
+    <button class="btn-1" type="button" onclick="Redirect()">Sign UP</button>
+    
+    <form class="box" name="login" action="index.html " method="post">
+        
+        <h1>login</h1>
+        
+        <input type="text" id="username" placeholder="Username"> 
+        <input type="password" id="password" placeholder="Password">
+        <button id="btn" type="button" onclick="myFunction()" >login </button>
+    </form>
+
+    <script >
+        function myFunction(){
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            if(username=="roshan" && password=="admin"){
+                location.href="file:///C:/Users/DELL/Desktop/paper%201/home.html";
+            }else{
+               alert("invalid username or password");
+            }
+        }
+        function Redirect(){
+            location.href="file:///C:/Users/DELL/Desktop/paper%201/signup.html";
+        }
+        
+        
+        
+    </script>
+</body>
+</html>

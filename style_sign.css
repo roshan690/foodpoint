@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+
+}
+.container{
+    padding: 100px;
+    
+}
+
+.container img{
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    z-index: -1;
+    transform: rotate(30deg);
+    display: inline-block;
+}
+.sign_form{
+    padding: 50px;
+   text-align: center;
+    background-color: rgb(235, 223, 231);
+    border-radius: 20px;
+     width: 300px;
+     display: inline-block;
+}
+.sign_form input{
+    display: block;
+    margin: 20px auto;
+    border: none;
+    padding: 15px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(221, 193, 219);
+}
+.sign_form input:focus{
+    outline: none;
+}
+.btn-2{
+    background-color: rgb(219, 22, 160);
+    color: white;
+    display:inline-block;
+    font-weight: 400;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    
+}
+.btn-3{
+    background: rgb(247, 9, 207);
+    display: inline-block;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.btn-1{
+    background: #000;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.app{
+    display: inline-block;
+    margin: 200px;
+    text-align: justify;
+}
+.app h1{
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+.fab{
+    margin-right: 10px;
+}
